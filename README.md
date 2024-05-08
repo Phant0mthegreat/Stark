@@ -1,7 +1,7 @@
 <h1 align="center">
     <a>Stark</a>
     <img alt="Static Badge" src="https://img.shields.io/badge/Version-0.7-green">
-
+    <img src="Stark.png">
 </h1>
 <p align="center">Stark is an open source PNG, JPG and JPEG image steganography tool made in Python. A fast and efficient tool.</p>
 
@@ -15,3 +15,22 @@ Stark hides texts in images using the stogonography technique applied to image m
 ## 🧬 Tested on...
  - [x] **KALI LINUX** 
 
+## ⚙️ Installation + Use
+> [!IMPORTANT]
+> 📩
+> For the installation to work, you must have "git", the python language and "pip" installed.
+```
+git clone https://github.com/Phant0mthegreat/Stark
+```
+```
+cd Stark
+```
+```
+bash install.sh
+```
+## 💉 Start
+Use the command ↓
+```
+python3 Stark.py
+```
+To start the program whenever you want
