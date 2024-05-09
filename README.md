@@ -14,7 +14,8 @@ Stark is widely used and you can use it for different purposes, such as hiding y
 Stark hides texts in images using the stogonography technique applied to image metadata, being compatible with PNG, JPG and JPEG images. It also comes with a function to check if there is a message in the image (identifies messages hidden by Stark himself)
 
 ## 🧬 Tested on...
- - [x] **KALI LINUX** 
+ - [x] **KALI LINUX**
+ - [x] **TERMUX** 
 
 ## ⚙️ Installation + Use
 > [!IMPORTANT]
