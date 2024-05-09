@@ -3,10 +3,16 @@ import piexif
 import time, os, banners, cores as c, sys
 from pystyle import Colorate, Colors
 
-def carg():
+def cargm():
     os.system('clear')
     print(Colorate.Vertical(Colors.yellow_to_red, banners.banner3))
-    print(f'{c.byellow}Stark{c.white} it\'s starting...')
+    print(f'Starting {c.byellow}Stark{c.white} on your cell phone...')
+    time.sleep(2)
+
+def cargp():
+    os.system('clear')
+    print(Colorate.Vertical(Colors.yellow_to_red, banners.banner3))
+    print(f'Starting {c.byellow}Stark{c.white} on your PC...')
     time.sleep(2)
 
 def esconder(caminho_da_imagem, mensagem):
@@ -61,3 +67,34 @@ def acessar(caminho_da_imagem):
     except Exception as e:
         print(f"\n{c.red}[!] An error occurred (report this error to the creator): {e}")
         input(f"\n{c.white}Press {c.bwhite}[ENTER]{c.white} to continue")
+
+def plataforma():
+    try:
+        with open("save.txt", "r") as arquivo:
+            conteudo = arquivo.read().strip()
+            if conteudo == "1":
+                os.system('python3 pc.py')
+            elif conteudo == "2":
+                os.system('python3 mobile.py')
+            else:
+                print(Colorate.Vertical(Colors.yellow_to_red, banners.banner5))
+                escolha = input(f"\nAre you using Stark on a PC {c.bwhite}(1){c.white} or mobile phone{c.bwhite} (2){c.white}?{c.yellow}:{c.white}  ")
+                while escolha not in ["1", "2"]:
+                    escolha = input(f"\nChoose between 1 and 2 (1 for PC and 2 for mobile){c.yellow}:{c.white} ")
+                with open("save.txt", "w") as arquivo:
+                    arquivo.write(escolha)
+                if escolha == "2":
+                    os.system('python3 mobile.py')
+                else:
+                    os.system('python3 pc.py')
+    except FileNotFoundError:
+        with open("save.txt", "w") as arquivo:
+            print(Colorate.Vertical(Colors.yellow_to_red, banners.banner5))
+            escolha = input(f"\nAre you using Stark on a PC {c.bwhite}(1){c.white} or mobile phone{c.bwhite} (2){c.white}?{c.yellow}:{c.white}  ")
+            while escolha not in ["1", "2"]:
+                escolha = input(f"\nChoose between 1 and 2 (1 for PC and 2 for mobile){c.yellow}:{c.white}  ")
+            arquivo.write(escolha)
+        if escolha == "2":
+            os.system('python3 mobile.py')
+        else:
+            os.system('python3 pc.py')
