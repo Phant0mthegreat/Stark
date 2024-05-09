@@ -1,7 +1,8 @@
 <h1 align="center">
     <a>Stark</a>
-    <img alt="Static Badge" src="https://img.shields.io/badge/Version-0.7-green">
+    <img alt="Static Badge" src="https://img.shields.io/badge/Version-1.0-green">
     <img src="Stark.png">
+    <img src="Stark_Mobile.jpg">
 </h1>
 <p align="center">Stark is an open source PNG, JPG and JPEG image steganography tool made in Python. A fast and efficient tool.</p>
 
