@@ -17,7 +17,7 @@ banner1 = """
               S::::::SSSSSS:::::S  tt::::::::::::::ta:::::aaaa::::::a r:::::r           k::::::k  k:::::k
               S:::::::::::::::SS     tt:::::::::::tt a::::::::::aa:::ar:::::r           k::::::k   k:::::k
                SSSSSSSSSSSSSSS         ttttttttttt    aaaaaaaaaa  aaaarrrrrrr           kkkkkkkk    kkkkkkk
-v: 0.7                                                                                            by: Phant0m The Great
+v: 1.0                                                                                            by: Phant0m The Great
 
 """
 banner2 = """
@@ -55,7 +55,7 @@ banner4 = """
   / __/ /____ _____/ /__
  _\ \/ __/ _ `/ __/  '_/
 /___/\__/\_,_/_/ /_/\_\                     
-v:0.7           by: Phant0m The Great
+v:1.0           by: Phant0m The Great
 """
 banner5 = """
 
