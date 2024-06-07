@@ -55,7 +55,7 @@ banner4 = """
   / __/ /____ _____/ /__
  _\ \/ __/ _ `/ __/  '_/
 /___/\__/\_,_/_/ /_/\_\
-v:1.8           by: Phant0m The Great
+v:1.8  by: Phant0m The Great
 """
 banner5 = """
 
