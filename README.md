@@ -8,7 +8,7 @@
     <img alt="Static Badge" src="https://img.shields.io/badge/Encryption-Tool-yellow">
 
 </h1>
-<p align="center">Stark is a Python-based image steganography and analysis tool. A fast and efficient tool..</p>
+<p align="center">Stark is a Python-based image steganography and analysis tool. A fast and efficient tool.</p>
 
 ## 📋 About
 Stark is a CLI tool that uses metadata manipulation to hide your messages in PNG, JPG, JPEG and WEBP images. It can be used for encrypted communication, hiding confidential information, etc.
