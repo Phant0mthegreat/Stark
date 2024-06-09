@@ -43,7 +43,7 @@ MM##++        ########@@
                                           ########
 ${b}"
 echo -e "[${r1}+${b}] Installing packages...\n"
-if pip install rich && pip install pystyle && pip install pillow && pip install piexif; then
+if pip install rich && pip install pystyle && pip install pillow && pip install piexif && pip install InquirerPy; then
   echo -e "\n[${v1}+${b}] Good news, the packages were installed successfully"
   sleep 2
   echo -e "\nStark will start automatically in a few seconds, if you want to start it again, just go to the repository and type ${r}python3 Stark.py${b}"
