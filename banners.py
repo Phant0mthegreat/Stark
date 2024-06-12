@@ -1,4 +1,6 @@
-banner1 = """                                     
+import cores as c
+
+banner1 = """
 
                  SSSSSSSSSSSSSSS      tttt                                              kkkkkkkk
                SS:::::::::::::::S  ttt:::t                                              k::::::k
@@ -16,8 +18,6 @@ banner1 = """
               S::::::SSSSSS:::::S  tt::::::::::::::ta:::::aaaa::::::a r:::::r           k::::::k  k:::::k
               S:::::::::::::::SS     tt:::::::::::tt a::::::::::aa:::ar:::::r           k::::::k   k:::::k
                SSSSSSSSSSSSSSS         ttttttttttt    aaaaaaaaaa  aaaarrrrrrr           kkkkkkkk    kkkkkkk
-v: 2.0                                                                                            by: Phant0m The Great
-
 """
 banner2 = """
          ,..........   ..........,
@@ -54,10 +54,6 @@ banner4 = """
   / __/ /____ _____/ /__
  _\ \/ __/ _ `/ __/  '_/
 /___/\__/\_,_/_/ /_/\_\
-
-v:2.0
-by: Phant0m The Great
-
 """
 banner5 = """
 
@@ -81,4 +77,50 @@ banner5 = """
 ░░░░░░░███░░░░░░░░░███░░░░░░░
 ░░░░░░░░░░█████████░░░░░░░░░░
 
+"""
+
+options = f"""
+  {c.yellow}╔═══                                 ═══╗{c.yellow}
+              {c.white}[{c.yellow}1{c.white}] Creator
+              [{c.yellow}2{c.white}] Details for Stark
+              [{c.bwhite}ENTER{c.white}] For menu
+  {c.yellow}╚═══                                 ═══╝{c.yellow}
+"""
+
+banner6 = """
+                   .-._.--._
+                  /         /
+                  -.       |
+                    \      |__
+                  ,-'______.-'
+                   '( c-(_)(_)__
+                     \    .._ . )
+                      \  /   `-'
+                      /\-|\_
+                     /-. \ /
+                    (  , o)|
+                     | |  o)|
+                     c -  _/|
+                    / \ \===|
+                   |  //===/
+                   |/\===/=/
+                      )==)=)
+                     (==|=|
+                      | |=|______
+                     (_.-.    )  )
+                          '--''-'
+"""
+
+banner7 = """
+                              ______
+                              |S  ||
+                              /__/-'
+              ________         ,
+            _|       .|      ,---.
+           |:|       .|      0/0 ?
+            \|       .|   ,==|D_|\===,
+             |________|   '|   :  =S= |
+             __|___|__ __/_|___:____|/<___
+            [_________]   ,--------,
+                          ========/
 """
