@@ -6,6 +6,8 @@ import banners
 import cores as c
 from pystyle import Colorate, Colors
 
+VERSION = "2.0.1"
+
 def loading_mobile():
     os.system('clear')
     print(Colorate.Vertical(Colors.yellow_to_red, banners.banner3))
