@@ -2,7 +2,7 @@
     <a>Stark</a>
     <img src="Sstark.png">
     <img src="Sttark.jpg">
-    <img alt="Static Badge" src="https://img.shields.io/badge/Version-2.0-green">
+    <img alt="Static Badge" src="https://img.shields.io/badge/Version-2.0.1-green">
     <img alt="Static Badge" src="https://img.shields.io/badge/CLI-Tool-blue">
     <img alt="Static Badge" src="https://img.shields.io/badge/Forensic-Tool-orange">
     <img alt="Static Badge" src="https://img.shields.io/badge/Encryption-Tool-yellow">
