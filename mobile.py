@@ -76,7 +76,7 @@ try:
                 case "2":
                     os.system('clear')
                     print(Colorate.Vertical(Colors.red_to_yellow, banners.banner7))
-                    print(f"\n{c.byellow}[{c.white}Version ⚙️ {c.byellow}]{c.white}{util.VERSION}\n\n{c.byellow}[{c.white}Programming L. 💾 {c.byellow}]{c.white}Python\n\n{c.byellow}[{c.white}Total lines of code 🩻 {c.byellow}]{c.white}12122")
+                    print(f"\n{c.byellow}[{c.white}Version ⚙️ {c.byellow}]{c.white}{util.VERSION}\n\n{c.byellow}[{c.white}Programming L. 💾 {c.byellow}]{c.white}Python\n\n{c.byellow}[{c.white}Total lines of code 🩻 {c.byellow}]{c.white}605")
                     input(f"\nPress {c.bwhite}[ENTER]{c.white} to continue")
     elif "4" in respost:
       os.system('clear')
