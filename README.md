@@ -1,6 +1,6 @@
 <h1 align="center">
     <a>Stark</a>
-    <img src="Starkkk.png">
+    <img src="Sstark.png">
     <img src="Starkkkm.jpg">
     <img alt="Static Badge" src="https://img.shields.io/badge/Version-2.0-green">
     <img alt="Static Badge" src="https://img.shields.io/badge/CLI-Tool-blue">
