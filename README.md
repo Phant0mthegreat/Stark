@@ -1,7 +1,7 @@
 <h1 align="center">
     <a>Stark</a>
-    <img src="Sstark.png">
-    <img src="Sttark.jpg">
+    <img src="Starkp.png">
+    <img src="starkm.jpg">
     <img alt="Static Badge" src="https://img.shields.io/badge/Version-2.0.1-green">
     <img alt="Static Badge" src="https://img.shields.io/badge/CLI-Tool-blue">
     <img alt="Static Badge" src="https://img.shields.io/badge/Forensic-Tool-orange">
