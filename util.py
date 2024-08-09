@@ -1,3 +1,4 @@
+import platform
 import os
 import time
 from PIL import Image, PngImagePlugin
@@ -6,7 +7,7 @@ import banners
 import cores as c
 from pystyle import Colorate, Colors
 
-VERSION = "2.0.1"
+VERSION = "2.0.2"
 
 def loading_mobile():
     os.system('clear')
@@ -168,29 +169,22 @@ def plataform():
     try:
         with open("save.txt", "r") as arquivo:
             conteudo = arquivo.read().strip()
-            if conteudo == "1":
-                os.system('python3 pc.py')
-            elif conteudo == "2":
-                os.system('python3 mobile.py')
-            else:
-                print(Colorate.Vertical(Colors.yellow_to_red, banners.banner5))
-                escolha = input(f"\nAre you using Stark on a PC {c.bwhite}(1){c.white} or mobile phone{c.bwhite} (2){c.white}?{c.yellow}:{c.white}  ")
-                while escolha not in ["1", "2"]:
-                    escolha = input(f"\nChoose between 1 and 2 (1 for PC and 2 for mobile){c.yellow}:{c.white} ")
-                with open("save.txt", "w") as arquivo:
-                    arquivo.write(escolha)
-                if escolha == "2":
-                    os.system('python3 mobile.py')
-                else:
-                    os.system('python3 pc.py')
     except FileNotFoundError:
-        with open("save.txt", "w") as arquivo:
-            print(Colorate.Vertical(Colors.yellow_to_red, banners.banner5))
-            escolha = input(f"\nAre you using Stark on a PC {c.bwhite}(1){c.white} or mobile phone{c.bwhite} (2){c.white}?{c.yellow}:{c.white}  ")
-            while escolha not in ["1", "2"]:
-                escolha = input(f"\nChoose between 1 and 2 (1 for PC and 2 for mobile){c.yellow}:{c.white}  ")
-            arquivo.write(escolha)
-        if escolha == "2":
-            os.system('python3 mobile.py')
+        conteudo = None
+
+    if conteudo not in ["1", "2"]:
+        os_name = platform.system().lower()
+        if "TERMUX_VERSION" in os.environ or "android" in os_name or "ios" in os_name:
+            escolha = "2"
         else:
-            os.system('python3 pc.py')
+            escolha = "1"
+
+        with open("save.txt", "w") as arquivo:
+            arquivo.write(escolha)
+    else:
+        escolha = conteudo
+
+    if escolha == "2":
+        os.system('python3 mobile.py')
+    else:
+        os.system('python3 pc.py')
