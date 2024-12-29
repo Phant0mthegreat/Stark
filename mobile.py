@@ -71,7 +71,7 @@ try:
                 case "1":
                     os.system('clear')
                     print(Colorate.Vertical(Colors.red_to_yellow, banners.banner6))
-                    print(f"\n{c.byellow}[{c.white}Creator 👔 {c.byellow}]{c.white}Phant0m The Great{c.white}\n\n{c.byellow}[{c.white}Discord Contact 🪪 {c.byellow}]{c.white}phant0mthegreat")
+                    print(f"\n{c.byellow}[{c.white}Creator 👔 {c.byellow}]{c.white}Phant0m The Great{c.white}\n\n{c.byellow}[{c.white}Discord Contact 🪪 {c.byellow}]{c.white}phant0mthegreat.")
                     input(f"\nPress {c.bwhite}[ENTER]{c.white} to continue")
                 case "2":
                     os.system('clear')
