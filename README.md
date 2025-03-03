@@ -18,13 +18,14 @@ Furthermore, Stark can scan images (PNG, JPG, JPEG and WEBP), collecting EXIF �
 ## 👁‍🗨 In what situations could it be used?
 You can use it for various purposes, such as hiding your passwords, secretly chatting with someone you know (using steganography as a means of encrypted communication), investigation, among others.
 ## 🧬 Tested on...
- - [x] **KALI LINUX**
- - [x] **TERMUX** 
+ - [x] **KALI LINUX 🐲**
+ - [x] **TERMUX 📲**
+ - [ ] **UBUNTU 📀** 
 
 ## ⚙️ Installation + Use
 > [!IMPORTANT]
 > 📩
-> For the installation to work, you must have "git", the python language and "pip" installed.
+> For the installation to work, you must have "git" installed.
 ```
 git clone https://github.com/Phant0mthegreat/Stark
 ```
@@ -34,9 +35,23 @@ cd Stark
 ```
 bash install.sh
 ```
-## 💉 Start
+## 💉 Start in Kali and Termux
 Use the command ↓
 ```
 python3 Stark.py
 ```
 To start the program whenever you want
+
+## 💉 Start in Ubuntu
+Use the command ↓ to start the python virtual environment
+```
+source stark_env/bin/activate
+```
+And use ↓ to start
+```
+python3 Stark.py
+```
+After use, the user ↓ to close the virtual environment
+```
+deactivate
+``
