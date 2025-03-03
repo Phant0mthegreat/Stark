@@ -20,7 +20,7 @@ You can use it for various purposes, such as hiding your passwords, secretly cha
 ## 🧬 Tested on...
  - [x] **KALI LINUX 🐲**
  - [x] **TERMUX 📲**
- - [ ] **UBUNTU 📀** 
+ - [x] **UBUNTU 📀** 
 
 ## ⚙️ Installation + Use
 > [!IMPORTANT]
@@ -54,4 +54,4 @@ python3 Stark.py
 After use, the user ↓ to close the virtual environment
 ```
 deactivate
-``
+```
